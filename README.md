@@ -9,19 +9,3 @@ Galaxies are generated using the Eddington inversion method, which produces part
 The project also includes a data analysis stage aimed at studying the physical evolution of the system. Typical analyses include total energy and energy conservation, spatial and velocity distributions of particles, density profiles, and the time evolution of relevant physical observables. Simulation outputs can be exported for further visualization or external post-processing.
 
 The code is compiled using the provided Makefile. After compilation, the simulation can be executed directly from the command line. The project is designed to support simulations with a large number of particles and serves as a foundation for further extensions such as parallelization, real-time visualization, or GPU acceleration.
-
-Project structure:
-.
-├── src/             Source code  
-    └── main.c 
-    └── galactic_dynamics.c 
-├── include/         Headers and configuration  
-│   └── models.h     Galaxy models 
-    └── config.h 
-    └── galactic_dynamics.h 
-├── Makefile  
-├── README.md  
-
-
-
-
