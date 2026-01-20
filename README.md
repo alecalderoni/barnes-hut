@@ -2,6 +2,10 @@
 
 This project implements a three-dimensional gravitational N-body simulator based on the Barnes–Hut algorithm, developed for the numerical study of astrophysical systems such as galaxies. The Barnes–Hut method reduces the computational complexity of the N-body problem from O(N²) to O(N log N) by hierarchically grouping distant particles and approximating their gravitational interaction through their center of mass. In three dimensions, this is achieved using an octree spatial decomposition.
 
+## Demo 
+
+<img src="videos/merge.gif" width="600" alt="Anteprima simulazione">
+
 The simulation is fully configurable through header files located in the `include` directory, allowing physical and numerical parameters to be modified without changing the core source code. In particular, galaxy models are defined and loaded in `include/models.h`, where it is possible to configure galaxy properties, load predefined models, or define new ones.
 
 Galaxies are generated using the Eddington inversion method, which produces particle distributions consistent with an isotropic distribution function in dynamical equilibrium. This allows the construction of realistic initial conditions suitable for long-term gravitational evolution and stability studies.
