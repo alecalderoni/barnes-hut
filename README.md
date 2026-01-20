@@ -4,7 +4,7 @@ This project implements a three-dimensional gravitational N-body simulator based
 
 ## Demo 
 
-<img src="videos/merge.gif" width="600" alt="Anteprima simulazione">
+<img src="videos/merge.gif" width="400" alt="Anteprima simulazione">
 
 The simulation is fully configurable through header files located in the `include` directory, allowing physical and numerical parameters to be modified without changing the core source code. In particular, galaxy models are defined and loaded in `include/models.h`, where it is possible to configure galaxy properties, load predefined models, or define new ones.
 
