@@ -13,23 +13,15 @@ The code is compiled using the provided Makefile. After compilation, the simulat
 Project structure:
 .
 ├── src/             Source code  
+    └── main.c 
+    └── galactic_dynamics.c 
 ├── include/         Headers and configuration  
-│   └── models.h     Galaxy models  
-├── data/            Simulation outputs  
-├── analysis/        Data analysis tools  
+│   └── models.h     Galaxy models 
+    └── config.h 
+    └── galactic_dynamics.h 
 ├── Makefile  
 ├── README.md  
 
-Build and run:
-make  
-./simulation  
 
-(The executable name may vary depending on the Makefile configuration.)
 
-This project was developed for educational and research purposes in computational physics, with a focus on numerical methods for gravitational dynamics and galaxy modeling.
 
-References: J. Barnes and P. Hut, A Hierarchical O(N log N) Force-Calculation Algorithm; A. S. Eddington, The Distribution of Stars in Globular Clusters; J. Binney and S. Tremaine, Galactic Dynamics.
-
-Author: Alessandro Calderoni, Physics Student.
-
-License: MIT License.
